@@ -39,6 +39,8 @@ It is a **writer voice tool**, not a ghostwriter. It helps you draft and revise 
 
 ## How to use this repo
 
+If you want the shortest possible path, start with `QUICKSTART.md`.
+
 1. Read `SAMPLES.md` first. Choosing the right samples matters more than polishing the template.
 2. Copy `template.modelfile` and rename it, for example `yourname-writer.modelfile`.
 3. Fill in each section with your own name, audience, voice rules, and sample passages.
@@ -69,6 +71,7 @@ The best version of this system should:
 
 | File | What it is |
 |------|-----------|
+| `QUICKSTART.md` | The 10-minute version for people who want to try this first |
 | `template.modelfile` | The annotated Modelfile template — start here |
 | `SAMPLES.md` | How to find and choose your writing samples |
 | `TESTING.md` | Standard prompts for evaluating your model |
