@@ -42,9 +42,10 @@ It is a **writer voice tool**, not a ghostwriter. It helps you draft and revise 
 If you want the shortest possible path, start with `QUICKSTART.md`.
 
 1. Read `SAMPLES.md` first. Choosing the right samples matters more than polishing the template.
-2. Copy `template.modelfile` and rename it, for example `yourname-writer.modelfile`.
-3. Fill in each section with your own name, audience, voice rules, and sample passages.
-4. Build and run your model:
+2. Skim `EXAMPLES.md` if you want to see what a finished version can look like.
+3. Copy `template.modelfile` and rename it, for example `yourname-writer.modelfile`.
+4. Fill in each section with your own name, audience, voice rules, and sample passages.
+5. Build and run your model:
 
 ```bash
 ollama pull mistral
@@ -52,8 +53,8 @@ ollama create yourname-writer -f yourname-writer.modelfile
 ollama run yourname-writer
 ```
 
-5. Test it using the prompts in `TESTING.md`.
-6. Iterate - edit the modelfile, rebuild, test again.
+6. Test it using the prompts in `TESTING.md`.
+7. Iterate - edit the modelfile, rebuild, test again.
 
 ## What good results look like
 
@@ -72,6 +73,7 @@ The best version of this system should:
 | File | What it is |
 |------|-----------|
 | `QUICKSTART.md` | The 10-minute version for people who want to try this first |
+| `EXAMPLES.md` | A worked example of what a finished voice setup can look like |
 | `template.modelfile` | The annotated Modelfile template — start here |
 | `SAMPLES.md` | How to find and choose your writing samples |
 | `TESTING.md` | Standard prompts for evaluating your model |
