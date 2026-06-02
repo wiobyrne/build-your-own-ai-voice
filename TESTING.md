@@ -4,12 +4,14 @@ The only way to know if a change to your Modelfile made the output better or wor
 
 Run all five prompts every time you build a new version of your model. Save the outputs. When you change something and rebuild, run them again and compare.
 
+If you are not sure whether this is worth the effort, the simple answer is: testing saves you from guessing. It tells you whether the model is sounding more like you, or just sounding different.
+
 ---
 
 ## The five standard prompts
 
 ### Test 1: Technical definition
-**What it tests:** Whether the model uses your conventions for introducing technical concepts — parenthetical definitions, accessible framing, your preferred analogy types.
+**What it tests:** Whether the model uses your conventions for introducing technical concepts - parenthetical definitions, accessible framing, your preferred analogy types.
 
 **Prompt:**
 > Define what [pick a term from your field] is for a reader who has never encountered it before.
@@ -22,7 +24,7 @@ Run all five prompts every time you build a new version of your model. Save the 
 ---
 
 ### Test 2: Contested position
-**What it tests:** Your argumentative register — how you frame a position, how you acknowledge complexity, how you avoid false certainty.
+**What it tests:** Your argumentative register - how you frame a position, how you acknowledge complexity, how you avoid false certainty.
 
 **Prompt:**
 > Write an opening paragraph for a post arguing that [pick a position you actually hold in your field].
@@ -35,7 +37,7 @@ Run all five prompts every time you build a new version of your model. Save the 
 ---
 
 ### Test 3: Personal struggle
-**What it tests:** Your narrative register — honesty, pace, how you describe confusion or failure without self-pity.
+**What it tests:** Your narrative register - honesty, pace, how you describe confusion or failure without self-pity.
 
 **Prompt:**
 > Write a short paragraph about a time you tried to learn something and hit a wall. Don't resolve it yet — just describe the stuck feeling.
@@ -48,7 +50,7 @@ Run all five prompts every time you build a new version of your model. Save the 
 ---
 
 ### Test 4: Practical explanation
-**What it tests:** How you handle step-by-step or process writing — whether you stay in prose or collapse into bullet lists, how you flag caveats.
+**What it tests:** How you handle step-by-step or process writing - whether you stay in prose or collapse into bullet lists, how you flag caveats.
 
 **Prompt:**
 > Explain how you would approach [pick a process from your work] to someone who has the right motivation but no background.
@@ -61,7 +63,7 @@ Run all five prompts every time you build a new version of your model. Save the 
 ---
 
 ### Test 5: Meaning-making closer
-**What it tests:** Your closing register — how you zoom out from a specific thing to a bigger idea without going generic or sentimental.
+**What it tests:** Your closing register - how you zoom out from a specific thing to a bigger idea without going generic or sentimental.
 
 **Prompt:**
 > Write a closing paragraph for a post about [pick a specific project or experience]. Connect it to why this kind of thing matters beyond the immediate context.
@@ -83,6 +85,12 @@ After running the prompts on a new version:
 4. If the new version is better on some prompts and worse on others, figure out what changed and why before deciding whether to keep it
 
 You are not looking for perfection. You are looking for a consistent direction of improvement.
+
+If you want a simple decision rule, use this:
+
+- keep the change if it sounds more like you on most prompts
+- drop it if it sounds smoother but less like you
+- keep comparing until the direction becomes obvious
 
 ---
 
